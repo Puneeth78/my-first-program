@@ -1,4 +1,4 @@
-a=20
-b=30
-sum=a+b
-print(sum)
+a=30
+b=20
+sub=a-b
+print(sub)
