@@ -1,10 +1,13 @@
+Functions 
+examples of recursive functions
+
 # # def recursive_parameters(parameters):
 # if base_condition:
 #     return result
 # else:
 #     return recursive_function(smaller_problem)
 
-# factorial
+# factorial of n numbers
 def factorial(n):
     if n==0 or n==1:
         return 1
