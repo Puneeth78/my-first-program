@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 num=int(input("enter the number: "))
 
 fact=1
@@ -41,3 +42,6 @@ student={"name":"puneeth",
          "marks":850}
 for key,value in student.items():
     print(key,":", value)
+=======
+
+>>>>>>> f3170ce5f2968f22bf79e58a4d1617baace0ec01
