@@ -43,6 +43,7 @@ txt=input("enter the string: ")
 for ch in txt:
     print(ch)
 
+# find the vowels in a string
 text=input("enter a text: ")
 count=0
 for ch in text.lower():
@@ -50,7 +51,7 @@ for ch in text.lower():
         count+=1
 print("vowels is  : ",count)
 
-               
+# reverse the string
 txt=input("enter the string: ")
 rev=""
 for ch in txt:
