@@ -1,3 +1,5 @@
+# examples for (for loops )
+
 # factorial number
 num=int(input("enter the number: "))
 
