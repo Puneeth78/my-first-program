@@ -1,3 +1,5 @@
+#  simple python examples
+
 text=input("enter the string : ")
 count=0
 i=0
