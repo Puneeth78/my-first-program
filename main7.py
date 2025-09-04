@@ -1,74 +1,76 @@
-1. Creating and Printing a List
+i=1
+while i<=10:
+    print(i)
+    i+=1
 
-fruits = ["apple", "banana", "cherry"]
-print(fruits)
+i=1
+while i<=50:
+    if i%2==0:
+        i+=1
+        continue
+    print(i)
+    i+=1
 
-🔹 2. Accessing Elements
+i=1
+while i<=50:
+    if i%2==0:
+        i+=1
+        continue
+    i+=1
+    print(i)
 
-numbers = [10, 20, 30, 40]
-print(numbers[0])   # first element
-print(numbers[-1])  # last element
+i=1
+total=0
+while i<=10:
+    total+=i
+    i+=1
+print("total",total)
 
- 3. Adding Elements
-animals = ["dog", "cat"]
-animals.append("elephant")     # add at end
-animals.insert(1, "tiger")     # add at position
-print(animals)
+num=int(input("enter the  number: "))
+while num>=1:
+    print(num)
+    num=num-1
 
-
-
-🔹 4. Removing Elements
-colors = ["red", "blue", "green", "yellow"]
-colors.remove("green")     # remove by value
-colors.pop(1)              # remove by index
-print(colors)
-
-
-🔹 5. Updating Elements
-marks = [45, 67, 89, 76]
-marks[2] = 95
-print(marks)
-
-🔹 6. Iterating (Looping through a List)
-names = ["Asha", "Ravi", "Kiran"]
-for name in names:
-    print(name)
-
-
-🔹 7. List Slicing
-letters = ['a', 'b', 'c', 'd', 'e']
-print(letters[1:4])   # from index 1 to 3
-print(letters[:3])    # from start to index 2
-print(letters[2:])    # from index 2 to end
+n=int(input("enter the number: "))
+fact=1
+i=1
+while i<=n:
+    fact=fact*i
+    i+=1
+print("factorial numn: ",fact)
 
 
-🔹 8. List Comprehension
+num=int(input("enter the num: "))
+i=1
+while i<=10:
+    print(num*i)
+    i+=1
+    continue
 
-👉 Create new lists using one line.
-
-squares = [x*x for x in range(6)]
-print(squares)
-
-
-🔹 9. Sorting a List
-nums = [4, 1, 7, 3]
-nums.sort()
-print(nums)
-
-
-
-🔹 10. Nested Lists (List inside a List)
-matrix = [[1,2,3], [4,5,6], [7,8,9]]
-print(matrix[1][2])   # row 2, column 3
+num=int(input("enter the number: "))
+reverse=0
+while num>0:
+    digit=num%10
+    reverse=reverse*10+digit
+    num=num//10
+print("reversed number is: ",reverse)
 
 
-🔹 11. Length of List
-items = ["pen", "book", "pencil"]
-print(len(items))
+n=int(input("enter the number: "))
+count=0
+while n>0:
+    n=n//10
+    count+=1
+print("total digit: ",count)
 
-
-🔹 12. Checking Membership
-fruits = ["apple", "banana", "mango"]
-print("apple" in fruits)
-print("grape" not in fruits)
-
+n=int(input("enter the number: "))
+temp=n
+rev=0
+while n>0:
+    digit=n%10
+    rev=rev*10+digit
+    n=n//10
+if temp==rev:
+    print("palindrome ")
+else:
+    print("not palindrome")
